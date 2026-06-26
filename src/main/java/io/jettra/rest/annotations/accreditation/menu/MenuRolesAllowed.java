@@ -1,4 +1,4 @@
-package io.jettra.rest2.annotations.accreditation.menu;
+package io.jettra.rest.annotations.accreditation.menu;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

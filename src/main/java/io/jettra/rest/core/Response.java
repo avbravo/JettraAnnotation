@@ -1,4 +1,4 @@
-package io.jettra.rest2.core;
+package io.jettra.rest.core;
 
 import java.util.HashMap;
 import java.util.Map;

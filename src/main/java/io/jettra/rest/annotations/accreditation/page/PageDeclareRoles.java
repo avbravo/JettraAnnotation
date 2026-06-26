@@ -1,12 +1,12 @@
-package io.jettra.rest2.annotations.accreditation.page;
+package io.jettra.rest.annotations.accreditation.page;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Target({ElementType.TYPE, ElementType.METHOD})
+@Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
-public @interface PageRolesAllowed {
+public @interface PageDeclareRoles {
     String[] value();
 }
