@@ -15,13 +15,12 @@
     </properties>
 
     <dependencies>
-    
-        
-
-
-
-        <!-- Placeholder for JettraUI dependency since it must support it -->
-     
+        <dependency>
+            <groupId>com.google.auto.service</groupId>
+            <artifactId>auto-service</artifactId>
+            <version>1.1.1</version>
+            <optional>true</optional>
+        </dependency>
     </dependencies>
 
     <build>
@@ -33,6 +32,13 @@
                 <configuration>
                     <source>${maven.compiler.source}</source>
                     <target>${maven.compiler.target}</target>
+                    <annotationProcessorPaths>
+                        <path>
+                            <groupId>com.google.auto.service</groupId>
+                            <artifactId>auto-service</artifactId>
+                            <version>1.1.1</version>
+                        </path>
+                    </annotationProcessorPaths>
                 </configuration>
             </plugin>
             
